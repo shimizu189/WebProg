@@ -26,7 +26,7 @@ Dies ist ein Node.js-Projekt, das Express.js verwendet, um eine Webanwendung zu 
 3. Starte den Server:
   npm start
 
-4. Öffne einen Webbrowser und navigiere zur Adresse `http://localhost:3000`, um die Anwendung zu sehen.
+4. Öffne einen Webbrowser und navigiere zur Adresse `http://localhost:80`, um die Anwendung zu sehen.
 
 ## Abhängigkeiten
 
