@@ -4,6 +4,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     res.render('index', { title: 'Blog', name: 'Fabian' });
   });
+  
 
 router.post('/', function(req, res) {
     var year = req.body.year;
