@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var fs = require('fs');
 
 router.get('/', function(req, res, next) {
     res.render('index', { title: 'Blog', name: 'Fabian' });
@@ -14,7 +15,12 @@ router.post('/', function(req, res) {
     var title = req.body.title;
     var text = req.body.text;
 
+    // Post-Befehle werden hier gespeichert
     var safe = [year, month, day, author, title, text];
+    fs.appendFile('posts.txt', JSON.stringify(safe) + '\n', function(err) {
+        if (err) throw err;
+        console.log('Saved!');
+    });
 
     res.json({message: 'Blog post received', year: year, month: month, day: day, author: author, title: title, text: text});
 });
