@@ -17,3 +17,22 @@ Dies ist ein Node.js-Projekt, das Express.js verwendet, um eine Webanwendung zu 
 ## Installation und Verwendung
 
 1. Klone das Repository:
+  https://github.com/shimizu189/WebProg.git
+
+2. Installiere die Abhängigkeiten:
+  cd webprog-projekt
+  npm install
+
+3. Starte den Server:
+  npm start
+
+4. Öffne einen Webbrowser und navigiere zur Adresse `http://localhost:3000`, um die Anwendung zu sehen.
+
+## Abhängigkeiten
+
+- Express.js: Webanwendungs-Framework für Node.js.
+- Multer: Middleware für die Verarbeitung von Dateiuploads in Express.js.
+
+## Autor
+
+Fabian L
