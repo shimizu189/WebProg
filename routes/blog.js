@@ -17,7 +17,7 @@ router.post('/', function(req, res) {
 
     // Post-Befehle werden hier gespeichert
     var safe = [year, month, day, author, title, text];
-    fs.appendFile('posts.txt', JSON.stringify(safe) + '\n', function(err) {
+    fs.appendFile('posts.json', JSON.stringify(safe) + '\n', function(err) {
         if (err) throw err;
         console.log('Saved!');
     });
