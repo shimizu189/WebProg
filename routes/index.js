@@ -22,6 +22,7 @@ router.get('/:year/:month/:day', function(req, res, next) {
   //res.send('Received date: ' + date);
   res.json({year: req.params.year, month: req.params.month, day: req.params.day});
 });
+
 /* Get names page
 router.get('/names', function(req, res, next) {
   var name2 = req.query.name;

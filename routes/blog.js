@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var fs = require('fs');
+var safe =[];
 
 router.get('/', function(req, res, next) {
     res.render('index', { title: 'Blog', name: 'Fabian' });
@@ -8,15 +9,18 @@ router.get('/', function(req, res, next) {
   
 
 router.post('/', function(req, res) {
-    var year = req.body.year;
-    var month = req.body.month;
-    var day = req.body.day;
-    var author = req.body.author;
-    var title = req.body.title;
-    var text = req.body.text;
+    let obj ={
+        year : req.body.year,
+        month : req.body.month,
+        day : req.body.day,
+        author : req.body.author,
+        title : req.body.title,
+        text : req.body.text
+    }
+ 
 
     // Post-Befehle werden hier gespeichert
-    var safe = [year, month, day, author, title, text];
+    safe.push(obj);
     fs.appendFile('posts.json', JSON.stringify(safe) + '\n', function(err) {
         if (err) throw err;
         console.log('Saved!');
@@ -26,8 +30,16 @@ router.post('/', function(req, res) {
 });
 
 router.get('/:page', function(req, res) {
-    var page = req.params.page;
+    let page = req.params.page;
     res.send('This is page ' + page);
+});
+router.delete('/:page', function(req, res) {
+    let page = req.params.page;
+    res.send('Seite ' + page +' wurde gelöscht!');
+}); 
+router.put('/:page', function(req, res) {
+    let page = req.params.page;
+    res.send('Seite ' + page +' wurde geändert!');
 });
 
 module.exports = router;
