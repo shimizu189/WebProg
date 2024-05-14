@@ -1,26 +1,91 @@
-[null,null,null,null,null,null]
-[null,null,null,null,null,null]
-[2024,null,null,null,null,null]
-[2022,3,15,"John Doe","My First Blog Post","This is the content of my first blog post."]
-[null,null,null,null,null,null]
-[null,null,null,null,null,null]
-[2022,3,15,"John Doe","My First Blog Post","This is the content of my first blog post."]
-[2023,7,20,"Jane Smith","A Summer Adventure","This is the content of my blog post about my summer adventure."]
-["2024","04","29","Fabian L.","Student","Post-Abgabe"]
-["2024","04","29","Fabian F.","Student","Post-Abgabe"]
-[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
-[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
-[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
-[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
-[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
-[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
-[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure.","blogID":2}]
-{"blogID":2,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
-{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
-{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
-{"blogID":1,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
-{"blogID":2,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
-{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
-{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
-{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
-{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+[
+  {
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "1",
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "2",
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "3",
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "3",
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "3",
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "3",
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "4",
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "5",
+    "year": "2024",
+    "month": "04",
+    "day": "29",
+    "author": "Fabiqwefwan L.",
+    "title": "Student",
+    "text": "Post-Abgabe"
+  },
+  {
+    "blogID": "10",
+    "year": "234",
+    "month": "04",
+    "day": "29",
+    "author": "Faposttestfwan L.",
+    "title": "Stasdbgrbetntrent",
+    "text": "Post-Abgabe"
+  }
+]
