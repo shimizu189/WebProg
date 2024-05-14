@@ -8,3 +8,19 @@
 [2023,7,20,"Jane Smith","A Summer Adventure","This is the content of my blog post about my summer adventure."]
 ["2024","04","29","Fabian L.","Student","Post-Abgabe"]
 ["2024","04","29","Fabian F.","Student","Post-Abgabe"]
+[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
+[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
+[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
+[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
+[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
+[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}]
+[{"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure.","blogID":2}]
+{"blogID":2,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+{"blogID":1,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+{"blogID":2,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
+{"blogID":3,"year":2023,"month":7,"day":20,"author":"Jane Smith","title":"A Summer Adventure","text":"This is the content of my blog post about my summer adventure."}
